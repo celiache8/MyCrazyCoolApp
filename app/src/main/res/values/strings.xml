@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyCrazyCoolApp</string>
+    <string name="display_text">This is a cool app.</string>
+    <string name="edit_text">Enter name</string>
+    <string name="button_text">Press me</string>
+    <string name="popup_text">This is a popup window!</string>
+</resources>
