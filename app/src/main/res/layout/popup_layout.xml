@@ -4,15 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="2dp"
     android:background="@color/popupBackground">
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:padding="25sp"
-        android:text="@string/popup_text" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -20,7 +13,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+        android:layout_marginTop="7dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="25sp"
+        android:text="@string/popup_text"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
 
 
 </RelativeLayout>
